@@ -1,0 +1,180 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #041b50;
+  background-color: #F6F6F4;
+}
+
+header {
+  background-image: url("../images/Rectangle 2.png");
+  max-width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.section-pay {
+  padding-top: 48px;
+}
+
+.section-pay .information-payment .part-pay-img {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.section-pay .information-payment .part-pay-img .part-image {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.section-pay .information-payment .part-pay-img .text-under-image {
+  text-align: center;
+}
+
+.section-pay .information-payment .part-pay-img .text-under-image h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.section-pay .information-payment .part-pay-img .text-under-image p {
+  width: 444px;
+  margin-bottom: 18px;
+}
+
+.section-pay .information-payment .part-pay-img .button-pay-image {
+  text-align: center;
+}
+
+.section-pay .information-payment .part-pay-img .btn-input-image {
+  color: #ffffff;
+  background-color: #09244E;
+}
+
+.section-pay .information-payment .part-pay-totalprice {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.section-pay .information-payment .part-pay-totalprice .text-header {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.section-pay .information-payment .part-pay-totalprice .text-header h3 {
+  font-size: 27px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.section-pay .information-payment .part-pay-totalprice .text-header p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.section-pay .information-payment .part-pay-totalprice .main-pay {
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+.section-pay .information-payment .part-pay-totalprice .main-pay .part-pay-transfer {
+  margin-bottom: -10px;
+}
+
+.section-pay .information-payment .part-pay-totalprice .main-pay .part-pay-transfer select {
+  color: #3d3d44;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.section-pay .information-payment .part-pay-totalprice .main-pay .part-pay-virtual-account select {
+  color: #3d3d44;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* Footer*/
+footer {
+  padding: 30px 0px 50px;
+  background-image: url("../images/Group 92.png");
+  background-size: cover;
+  width: auto;
+}
+
+footer .header-footer p {
+  font-size: 32px;
+  font-weight: 600;
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .header-footer p::after {
+  content: '';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 3px solid #6b6c6d;
+}
+
+footer h4 {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+footer .footer-link-list a {
+  color: #cfd2cd;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer ul li {
+  font-size: 16px;
+  width: 270px;
+}
+
+footer ul .info-number li {
+  font-size: 20px;
+}
+
+footer ul .text-info-number li {
+  font-size: 20px;
+}
+
+footer ul .title {
+  color: #df7238;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+footer ul.link-menu a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+footer li a:hover {
+  color: #ff8f3e;
+  text-decoration: none;
+}
+
+footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#footer-copyright {
+  color: #ffffff;
+  background-color: #080f2e;
+}
+/*# sourceMappingURL=PaymentTB.css.map */

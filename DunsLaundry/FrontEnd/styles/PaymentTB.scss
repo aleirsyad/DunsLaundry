@@ -1,0 +1,160 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #041b50;
+  background-color: #F6F6F4;
+}
+
+header {
+  background-image: url('../images/Rectangle\ 2.png');
+  max-width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+// Main
+.section-pay {
+    padding-top: 48px;
+  .information-payment {
+    .part-pay-img {
+      background-color: #ffffff;
+      border-radius: 6px;
+      padding-top: 28px;
+      padding-bottom: 28px;
+      .part-image{
+          text-align: center;
+          margin-bottom: 34px;
+      }
+      .text-under-image{
+        text-align: center;
+          h3{
+              font-size: 30px;
+              font-weight: 500;
+              margin-bottom: 8px;
+          }
+          p{
+              width: 444px;
+              margin-bottom: 18px;
+          }
+      }
+      .button-pay-image{
+        text-align: center;
+      }
+      .btn-input-image{
+        color: #ffffff;
+        background-color: #09244E;
+      }
+    }
+    .part-pay-totalprice {
+        background-color: #ffffff;
+        border-radius: 6px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+      .text-header{
+        padding-left: 34px;
+        padding-right: 34px;
+          h3{
+              font-size: 27px;
+              font-weight: 500;
+              text-align: left;
+          }
+          p{
+              font-size: 18px;
+              font-weight: 500;
+              margin-top: 20px;
+          }
+      }
+      .main-pay{
+        padding-left: 34px;
+        padding-right: 34px;
+        
+        .part-pay-transfer{
+            margin-bottom: -10px;
+            select{
+                color: #3d3d44;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+        .part-pay-virtual-account{
+            select{
+                color: #3d3d44;
+                font-weight: 500;
+                font-size: 18px;
+            }
+        }
+      }
+    }
+  }
+}
+
+/* Footer*/
+footer {
+  padding: 30px 0px 50px;
+  background-image: url('../images/Group\ 92.png');
+  background-size: cover;
+  width: auto;
+
+  .header-footer p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-footer p::after {
+    content: '';
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #6b6c6d;
+  }
+
+  h4 {
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  .footer-link-list {
+    a {
+      color: #cfd2cd;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+  ul li {
+    font-size: 16px;
+    width: 270px;
+  }
+  ul .info-number li {
+    font-size: 20px;
+  }
+  ul .text-info-number li {
+    font-size: 20px;
+  }
+  ul .title {
+    color: #df7238;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  ul.link-menu a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  li a:hover {
+    color: #ff8f3e;
+    text-decoration: none;
+  }
+
+  ul.footer-link-list li {
+    padding-top: 10px;
+  }
+}
+
+#footer-copyright {
+  color: #ffffff;
+  background-color: #080f2e;
+}

@@ -1,0 +1,235 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #041b50;
+  background-color: #C4C4C4;
+}
+
+.navbar-expand-lg {
+  height: 80px;
+}
+
+.navbar-expand-lg .navbar-brand img {
+  width: 60px;
+}
+
+.navbar-expand-lg .navbar-nav a {
+  text-transform: uppercase;
+  color: #0a123e;
+}
+
+.navbar-expand-lg .nav-link {
+  font-size: 18px;
+  color: #19245a;
+  margin-right: 30px;
+}
+
+.navbar-expand-lg .nav-link.active {
+  font-weight: bold;
+  color: #19245a !important;
+  font-size: 20px;
+}
+
+.navbar-expand-lg .nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #e26623;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.navbar-expand-lg .btn {
+  margin-left: 30px;
+}
+
+.navbar-expand-lg .btn-sign-in {
+  background-color: #e26623;
+  width: 140px;
+  color: white !important;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.navbar-expand-lg .btn-sign-in:hover {
+  background-color: #e68a49;
+}
+
+.section-log-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  margin: 8%;
+  background-color: #fff;
+  padding: 36px 20px 36px 20px;
+  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 730px;
+}
+
+.signin-text {
+  font-style: normal;
+  font-weight: 600 !important;
+}
+
+.header-login h3 {
+  font-size: 40px;
+  color: #0a123e;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-group label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-color: #0a123e !important;
+  border-style: solid !important;
+  border-width: 0 0 1px 0 !important;
+  padding: 0px !important;
+  color: #495057;
+  height: auto;
+  border-radius: 0;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.birthday-section {
+  padding: 15px;
+}
+
+.btn-class {
+  border-color: #19245a;
+  background-color: #19245a;
+  color: #ffffff;
+  width: 185px;
+  height: 40px;
+  font-size: 25px;
+  padding: 2px 0px 26px;
+}
+
+.btn-class:hover {
+  background-color: #19245a;
+  color: #fff;
+}
+
+.content p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: #656565;
+}
+
+/* Footer*/
+footer {
+  padding: 30px 0px 50px;
+  background-image: url("../images/Group 92.png");
+  background-size: cover;
+  width: auto;
+}
+
+footer .header-footer p {
+  font-size: 32px;
+  font-weight: 600;
+  color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .header-footer p::after {
+  content: '';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 3px solid #6b6c6d;
+}
+
+footer h4 {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+footer .footer-link-list a {
+  color: #cfd2cd;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer ul li {
+  font-size: 16px;
+  width: 270px;
+}
+
+footer ul .info-number li {
+  font-size: 20px;
+}
+
+footer ul .text-info-number li {
+  font-size: 20px;
+}
+
+footer ul .title {
+  color: #df7238;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+footer ul.link-menu a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #ff8f3e;
+  text-decoration: none;
+}
+
+footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#footer-copyright {
+  color: #ffffff;
+  background-color: #080f2e;
+}
+/*# sourceMappingURL=mainlogin.css.map */

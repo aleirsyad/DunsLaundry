@@ -1,0 +1,243 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #041B50;
+  }
+  
+  .navbar-expand-lg {
+    height: 80px;
+  }
+  
+  .navbar-expand-lg .navbar-brand img {
+    width: 60px;
+  }
+  
+  .navbar-expand-lg .navbar-nav a {
+    text-transform: uppercase;
+    color: #0A123E;
+  }
+  
+  .navbar-expand-lg .nav-link {
+    font-size: 18px;
+    color: #19245a;
+    margin-right: 30px;
+  }
+  
+  .navbar-expand-lg .nav-link.active {
+    font-weight: bold;
+    color: #19245a !important;
+    font-size: 20px;
+  }
+  
+  .navbar-expand-lg .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #e26623;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  
+  .navbar-expand-lg .btn {
+    margin-left: 30px;
+  }
+  
+  .navbar-expand-lg .btn-sign-in {
+    background-color: #e26623;
+    width: 140px;
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  
+  .navbar-expand-lg .btn-sign-in:hover {
+    background-color: #e68a49;
+  }
+  
+  header {
+    max-width: 100%;
+    padding: 300px 0px 180px;
+    background-image: url("../images/jumbotron.png");
+    background-size: cover;
+    background-position-y: center;
+  }
+  
+  header h1,
+  header p {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: -144px !important;
+  }
+  
+  header h1 {
+    font-size: 70px;
+    font-weight: bold;
+  }
+  
+  header h1 .color-header {
+    color: #F58603;
+  }
+  
+  header p {
+    margin-top: 32px;
+    font-size: 35px;
+    font-weight: 500;
+  }
+  
+  .section-product {
+    padding-top: 100px;
+    background-color: #ffffff;
+    max-width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .section-product .title-heading {
+    font-weight: 800;
+    font-size: 38px;
+    padding-bottom: 5px;
+  }
+  
+  .section-product .text-heading {
+    font-size: 25px;
+    color: #6b6c6d;
+    padding-bottom: 30px;
+  }
+  
+  .section-product .portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+  }
+  
+  .section-product .portfolio-item .caption {
+    display: -ms-grid;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .section-product .portfolio-item .caption .caption-content {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .section-product .portfolio-item .caption .caption-content p {
+    padding-top: 20px;
+  }
+  
+  .section-product .portfolio-item img {
+    border-radius: 15px;
+  }
+  
+  @media (min-width: 992px) {
+    .content-section-heading {
+      padding-bottom: 25px;
+    }
+    .section-product {
+      padding-bottom: 80px;
+    }
+    .portfolio-item {
+      max-width: none;
+      margin: 0;
+    }
+    .portfolio-item .caption .caption-content {
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: 5rem;
+    }
+    .portfolio-item img {
+      max-width: auto;
+      max-height: 300px;
+    }
+  }
+  
+  .section-project {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+  }
+  
+  .section-project .Guru-belajar {
+    width: 320px;
+    margin-top: 35px;
+  }
+  
+  .section-project .Ancol {
+    margin-top: 35px;
+  }
+  
+  @media (min-width: 992px) {
+    .section-project {
+      max-width: 100%;
+      max-height: 170px;
+    }
+    .section-project .kampus-merdeka {
+      margin-top: -30px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .section-project .Guru-belajar {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin-top: -35px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 500px;
+      height: auto;
+    }
+    .section-project .Ancol {
+      margin-top: -35px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  
+  /* Footer*/
+  #Section-footer {
+    background-color: #ffffff;
+  }
+  
+  #Section-footer li.imglogobrand {
+    max-width: 223px;
+    max-height: 165px;
+  }
+  
+  #Section-footer .footer-link-list a {
+    color: #080f2e;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #Section-footer ul li {
+    font-size: 18px;
+  }
+  
+  #Section-footer a:hover {
+    color: #ff8f3e;
+    text-decoration: none;
+  }
+  
+  #Section-footer ul.footer-link-list li {
+    padding-top: 10px;
+  }
+  
+  #footer-copyright {
+    color: #ffffff;
+    background-color: #080f2e;
+  }
+  /*# sourceMappingURL=main.css.map */

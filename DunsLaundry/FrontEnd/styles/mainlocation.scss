@@ -1,0 +1,130 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #041b50;
+  background-color: #f6f6f4;
+}
+
+header {
+  background-image: url("../images/Rectangle\ 2.png");
+  max-width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+main {
+  .section-alamat {
+    padding-top: 140px;
+    padding-bottom: 136px;
+    .header-alamat {
+      margin-bottom: 68px;
+      h1 {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+    .input-alamat {
+      label {
+        font-size: 20px;
+        font-weight: 500;
+        color: #444444;
+        margin-bottom: 14px;
+      }
+      .part-alamat {
+        input {
+          height: 50px;
+          border-radius: 6px;
+        }
+      }
+      .part-alamat-rincian {
+        textarea {
+          height: 186px;
+          border-radius: 6px;
+        }
+      }
+    }
+    .tombol-selanjutnya {
+      display: flex;
+      justify-content: center;
+      .btn-selanjutnya {
+        margin-top: 72px;
+        width: 158px;
+        height: 56px;
+        font-size: 22px;
+        font-weight: 500;
+        background-color: #09244e;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+/* Footer*/
+footer {
+  padding: 30px 0px 50px;
+  background-image: url("../images/Group\ 92.png");
+  background-size: cover;
+  width: auto;
+
+  .header-footer p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header-footer p::after {
+    content: "";
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #6b6c6d;
+  }
+
+  h4 {
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  .footer-link-list {
+    a {
+      color: #cfd2cd;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+  ul li {
+    font-size: 16px;
+    width: 270px;
+  }
+  ul .info-number li {
+    font-size: 20px;
+  }
+  ul .text-info-number li {
+    font-size: 20px;
+  }
+  ul .title {
+    color: #df7238;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  ul.link-menu a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: #ff8f3e;
+    text-decoration: none;
+  }
+
+  ul.footer-link-list li {
+    padding-top: 10px;
+  }
+}
+
+#footer-copyright {
+  color: #ffffff;
+  background-color: #080f2e;
+}
